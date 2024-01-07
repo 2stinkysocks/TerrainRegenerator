@@ -1,0 +1,14 @@
+disabled: false
+warning-delay-seconds: 70
+schematics:
+  <name>:
+    x: 0
+    y: 0
+    z: 0
+    timer-seconds: 60
+    ignoreairblocks: true
+    includeentities: true
+    removecrystals: false
+    world: world
+    respawn-warning-broadcast: "Respawning in 1 minute!"
+    respawn-broadcast: "Respawning..."

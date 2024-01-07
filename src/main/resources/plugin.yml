@@ -1,0 +1,19 @@
+name: TerrainRegenerator
+version: '${project.version}'
+main: me.twostinkysocks.terrainregenerator.TerrainRegenerator
+api-version: '1.20'
+commands:
+  terrainregenerator:
+    description: Various settings/commands for terrainregenerator
+    usage: /<command>
+    permission: terrainregenerator.reload
+  regenschematic:
+    usage: /<command>
+    description: regen schematic
+permissions:
+  terrainregenerator.reload:
+    description: reload plugin
+    default: false
+  terrainregenerator.regenschematic:
+    description: regen schematics
+    default: false
